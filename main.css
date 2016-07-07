@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #EB553C;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon-button {
+
+}
+
+svg {
+    height: 250px;
+}
+
+.st0 {
+  animation: color_change 1.5s infinite alternate;
+}
+
+
+@keyframes color_change {
+	from { fill:#EB553C; }
+	to { fill: #E8B43E; }
+}
