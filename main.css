@@ -4,7 +4,7 @@ body {
 
 p {
   color: white;
-  font-family: sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 25px;
   color: #EB553C;
 }
@@ -25,11 +25,11 @@ svg {
 }
 
 .st0 {
-  animation: color_change 1.5s infinite alternate;
+  animation: color_change 1s infinite alternate;
 }
 
 
 @keyframes color_change {
-	from { fill:#EB553C; }
-	to { fill: #E8B43E; }
+	from { fill:#6C6C99; }
+	to { fill: #EB553C; }
 }
