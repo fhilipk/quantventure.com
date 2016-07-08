@@ -22,8 +22,14 @@ p {
   font-family: 'Libre Baskerville', serif;
 }
 
-.v4 {
+.v4 > p {
   font-family: 'Cabin', sans-serif;
+}
+
+.v5 > p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 45px;
+  color:#DC323D;
 }
 
 .flex-container {
@@ -46,6 +52,10 @@ svg {
   animation: color_change3 1s infinite alternate;
 }
 
+.st5 {
+  animation: color_change5 5s infinite alternate;
+}
+
 .st4 > svg  {
   height: 400px;
 }
@@ -58,4 +68,9 @@ svg {
 @keyframes color_change3 {
 	from { fill:#6ABD8B; }
 	to { fill: #E62F13; }
+}
+
+@keyframes color_change5 {
+	from { fill:##FFFFFF; }
+	to { fill: #DC323D; }
 }
