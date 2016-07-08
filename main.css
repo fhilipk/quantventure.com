@@ -2,6 +2,14 @@ body {
   background-color: black;
 }
 
+.menu > a {
+  color: gray;
+}
+
+.menu > a:visited {
+  color: gray;
+}
+
 p {
   color: white;
   font-family: 'Oxygen', sans-serif;
@@ -9,15 +17,17 @@ p {
   color: #EB553C;
 }
 
+.v3 {
+  color: #E62F13;
+  font-family: 'Libre Baskerville', serif;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#icon-button {
-
+  padding-top: 150px
 }
 
 svg {
@@ -28,8 +38,16 @@ svg {
   animation: color_change 1s infinite alternate;
 }
 
+.st3 {
+  animation: color_change3 1s infinite alternate;
+}
 
 @keyframes color_change {
 	from { fill:#6C6C99; }
 	to { fill: #EB553C; }
+}
+
+@keyframes color_change3 {
+	from { fill:#6ABD8B; }
+	to { fill: #E62F13; }
 }
