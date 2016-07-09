@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #050505;
 }
 
 .menu > a {
@@ -19,7 +19,7 @@ p {
 
 .colored-text {
     font-family: 'Righteous', cursive;
-    font-size: 40px;
+    font-size: 35px;
     animation: text-color 5s infinite alternate;
 }
 
@@ -45,13 +45,13 @@ p {
 .flex-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-top: 320px
+  justify-content: center;
+  padding-top: 300px;
 }
 
 svg {
-  height: 380px;
+  height: 300px;
 }
 
 .st0 {
