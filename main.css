@@ -112,3 +112,10 @@ svg {
   50% { color: #061F67; }
   100% { color: #FFFFFF; }
 }
+
+@media(min-width:767px){
+  .flex-container {
+    padding-top: 300px;
+  }
+
+}
