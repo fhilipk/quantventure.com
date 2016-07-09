@@ -17,6 +17,12 @@ p {
   color: #EB553C;
 }
 
+.colored-text {
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    animation: text-color 5s infinite alternate;
+}
+
 .v3 {
   color: #E62F13;
   font-family: 'Libre Baskerville', serif;
@@ -41,7 +47,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 150px
+  padding-top: 250px
 }
 
 svg {
@@ -99,5 +105,10 @@ svg {
   0% { fill: #DC323D; }
   50% { fill: #061F67; }
   100% { fill: #FFFFFF; }
+}
 
+@keyframes text-color {
+  0% { color: #DC323D; }
+  50% { color: #061F67; }
+  100% { color: #FFFFFF; }
 }
