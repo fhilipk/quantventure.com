@@ -54,54 +54,21 @@ svg {
   height: 300px;
 }
 
+a {
+  transform: translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+a:hover, a:focus, a:active {
+  transform: scale(.95);
+  opacity: 0.5;
+}
+
 .st0 {
-  animation: color_change 1s infinite alternate;
-}
-
-.st3 {
-  animation: color_change3 1s infinite alternate;
-}
-
-.st5 {
-  animation: color_change5 5s infinite alternate;
-}
-
-.st6 {
-  animation: color_change6 5s infinite alternate;
-}
-
-.st7 {
-  animation: color_change7 5s infinite alternate;
-}
-
-.st4 > svg  {
-  height: 400px;
+  animation: color_change 5s infinite alternate;
 }
 
 @keyframes color_change {
-	from { fill:#6C6C99; }
-	to { fill: #EB553C; }
-}
-
-@keyframes color_change3 {
-	from { fill:#6ABD8B; }
-	to { fill: #E62F13; }
-}
-
-@keyframes color_change5 {
-	from { fill:##FFFFFF; }
-	to { fill: #DC323D; }
-}
-
-@keyframes color_change6 {
-  0% { fill: #A5DBDE; }
-  25% { fill: #1D4C82; }
-  50% { fill: #CE4D36; }
-  75% { fill: #8AC75D; }
-  100% { fill: #E97F6D; }
-}
-
-@keyframes color_change7 {
   0% { fill: #DC323D; }
   50% { fill: #061F67; }
   100% { fill: #FFFFFF; }
