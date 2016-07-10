@@ -12,7 +12,9 @@ body {
 }
 
 .o3 {
-  background: linear-gradient(125deg, #485563 5%, #29323c 65%);
+  background: linear-gradient(125deg, #29323c 5%, #485563 65%);
+  animation: gradient-animation 7.5s ease infinite;
+  background-size: 400% 400%;
 }
 
 .o4 {
@@ -91,7 +93,7 @@ a:hover, a:focus, a:active {
   opacity: 0.5;
 }
 
-.st1 {
+.st0 {
   animation: color_change 5s infinite alternate;
 }
 
@@ -105,4 +107,10 @@ a:hover, a:focus, a:active {
   0% { color: #DC323D; }
   50% { color: #061F67; }
   100% { color: #FFFFFF; }
+}
+
+@keyframes gradient-animation {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
 }
