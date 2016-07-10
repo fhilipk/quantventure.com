@@ -17,6 +17,12 @@ body {
   background-size: 400% 400%;
 }
 
+.o7 {
+  background: linear-gradient(125deg, #29323c 5%, #485563 65%);
+  animation: gradient-animation 5s ease infinite;
+  background-size: 400% 400%;
+}
+
 .o4 {
   background: linear-gradient(125deg, #780206 5%, #061161 65%);
 }
