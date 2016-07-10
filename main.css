@@ -1,5 +1,32 @@
+html{
+  min-height: 100%
+}
+
 body {
   background-color: #050505;
+  min-height: 100%;
+}
+
+.o2 {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.o3 {
+  background: linear-gradient(125deg, #485563 5%, #29323c 65%);
+}
+
+.o4 {
+  background: linear-gradient(125deg, #780206 5%, #061161 65%);
+}
+
+.o5 {
+  background: linear-gradient(125deg, #191919 5%, #0c0c0c 65%);
+}
+
+.o6 {
+  background-image: url(assets/images/O8PHH00.jpg);
+  background-size: 130%;
+  background-position: top right;
 }
 
 .menu > a {
@@ -47,7 +74,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 300px;
+  padding-top: 100px;
 }
 
 svg {
@@ -64,7 +91,7 @@ a:hover, a:focus, a:active {
   opacity: 0.5;
 }
 
-.st0 {
+.st1 {
   animation: color_change 5s infinite alternate;
 }
 
